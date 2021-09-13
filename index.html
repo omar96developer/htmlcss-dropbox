@@ -6,11 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>DropBox</title>
 </head>
 <body>
     <header>
-        <!-- INIZIO HEADER -->
         <!-- BARRA DI NAVIGAZIONE -->
         <nav class="nav-header clearfix">
             <div class="nav-header-left float">
@@ -26,27 +26,42 @@
                     <li><a href="#">Supporto</a></li>
                     <li><a href="#">Contatta Ufficio vendite</a></li>
                     <li><a href="#">Accedi</a></li>
-                    <li><a href="#">Inizia</a></li>
+                    <li><a href="#" class="link-blu">Inizia</a></li>
                 </ul>
             </div>
         </nav>
         <!--  INIZIO CONTENUTO HERO -->
-        <section class="header_section container-large">
-            <div>
-                <h1></h1>
+        <section class="header-section container-large clearfix">
+            <div class="header-section-title">
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             </div>
-            <div>
-                <p></p>
-                <a href="#"></a>
-                <span></span>
-                <div></div>
+            <div class="header-section-col-one col_3_9 float">
+                <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.Dropbox Business è più di uno spazio di archiviazione sicuro: è un mod intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p> 
+                <a href="#" class="link-blu link">Inizia la tua prova gratuita</a>
+                <p>Annulla in qualsiasi momento</p>
+                <div><i class="fas fa-arrow-down"></i></div>
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="header-section-col-two col_6_9 float">
+                <img src="img/jumbo.png" alt="proposta" class="coltwo-img">
             </div>
         </section>
         <!-- FINE CONTENUTO HERO -->
-    <main></main>
+    </header> 
+    <main>
+        <div class="main-container container clearfix">
+            <h2>Trova il piano Dropbox Business che fa per te</h2>
+            <form class="main-form">
+                    <input type="radio" name="fatt" id="fattmen" value="fatturamen">
+                    <label for="fattmen">Fatturazione mensile</label>
+    
+                    <input type="radio" name="fatt" id="fattann" value="fatturaann">
+                    <label for="fattann">Fatturazione annuale</label>
+            </form>
+        </div>
+        <div class="container">
+            
+        </div>
+    </main>
     <footer></footer>
     
 </body>
