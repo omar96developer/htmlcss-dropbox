@@ -9,7 +9,7 @@
 ************************************************/
   body {
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
   }
   
   header {
@@ -54,21 +54,22 @@
     font-size: 20px;
   }
   p {
-    font-size: 17px;
+    font-size: 15px;
   }
   li {
     display: inline-block;
     margin: 10px
   }
-
+  
   a {
     text-decoration:none;
     color: black;
     padding: 5px 15px;
     display: inline-block;
   }
+  
   hr {
-    width: 10px;;
+    width: 50px;
   }
   /************************************************
   * Classi layout
@@ -197,14 +198,35 @@
 .tre-a {
   margin-left: 40px;
 }
-.uno-a, .due-a, .tre-a {
+.uno-a,.tre-a {
   border: 1px solid black;
- 
-}
 
-.uno-ab {
+}
+.uno {
   border-bottom: 1px solid black;
   padding:10px;
   text-align: center ;
+  margin-bottom: 20px;
 
+}
+.due {
+  padding-left: 30px;
+}
+.tre h3,
+.tre h5,
+.tre p {
+  margin-bottom: 15px
+}
+.fa-pencil-alt, .fa-check {
+font-size: 16px;
+}
+.fa-check {
+  color:#0061FF
+}
+.link-uno, .due p, hr, h4 {
+  margin-bottom: 20px
+}
+.link-due {
+  text-decoration: underline;
+  color: #0061FF;
 }
