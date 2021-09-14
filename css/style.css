@@ -74,11 +74,7 @@
   hr {
     width: 50px;
   }
-  
-  footer {
-    background-color: black;
-    
-  }
+ 
   /************************************************
   * Classi layout
   ************************************************/
@@ -430,9 +426,33 @@
 /* FINE MAIN */
 /* INIZIO FOOTER */
 .footer-section {
-  padding: 50PX;
+  background-color: black;
+  height: 80vh;
+}
+.footer-section-a {
+  padding: 100px 0;
 }
 .footer-list {
-  width: calc(100% / 5);
   color: white;
+  width: calc(100% / 5);
+}
+.footer-list li {
+  display: block;
+  margin-left: 0
+}
+
+.foot-c hr {
+  color: white;
+  width: 150px;
+  margin-left: 0;
+}
+.foot-c p {
+  color: white;
+  margin-top: 50px;
+}
+.fa-globe-americas  {
+  font-size: 20px;
+}
+.fa-caret-up {
+  font-size: 10px;
 }
