@@ -53,6 +53,9 @@
   h5 {
     font-size: 20px;
   }
+  h6 {
+    font-size: 15px;
+  }
   p {
     font-size: 15px;
   }
@@ -71,9 +74,15 @@
   hr {
     width: 50px;
   }
+  
+  footer {
+    background-color: black;
+    
+  }
   /************************************************
   * Classi layout
   ************************************************/
+  
   
   
   .container-large {
@@ -118,8 +127,14 @@
     width: calc(100% / 9 * 6);
   }
   
-  .main-section-one, .main-section-two, .main-section-three, .main-section-four {
+  .main-section-one, 
+  .main-section-two, 
+  .main-section-three, 
+  .main-section-four {
     margin-bottom: 200px
+  }
+  .main-section-seven, .main-section-eight {
+    margin-bottom: 100px;
   }
   /************************************************
   * Classi Utilities
@@ -185,7 +200,9 @@
    /************************************************
   * INIZIO MAIN
   ************************************************/
-  
+  .main-container {
+    margin-bottom: 30px;
+  }
   .main-container h2 {
     margin-bottom: 40px;
   }
@@ -382,4 +399,40 @@
   width: 50px;
   margin-left: 0;
   margin-bottom: 50px;
+}
+/* SEZIONE PROVA GRATUITA */
+.main-section-seven {
+  background-color: rgba(180,208,231,255);
+  height: 350px;
+}
+.seven-a-b, .seven-a-c {
+  padding: 125px 0;
+}
+
+.link-seven {
+  background-color: white;
+  margin-left: 230px
+}
+/* SEZIONE DOMANDE FREQUENTI */
+.main-section-eight-a h3 {
+  margin-bottom: 50px;
+}
+.fa-chevron-down {
+  font-size: 20px;
+  margin-left: 400px;
+}
+.main-section-eight-a, .main-section-eight-ab {
+  border-bottom: 1px solid black;
+}
+.main-section-eight-ab {
+  padding: 30px 0;
+}
+/* FINE MAIN */
+/* INIZIO FOOTER */
+.footer-section {
+  padding: 50PX;
+}
+.footer-list {
+  width: calc(100% / 5);
+  color: white;
 }
