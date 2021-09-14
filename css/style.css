@@ -118,6 +118,9 @@
     width: calc(100% / 9 * 6);
   }
   
+  .main-section-one, .main-section-two, .main-section-three, .main-section-four {
+    margin-bottom: 200px
+  }
   /************************************************
   * Classi Utilities
   ************************************************/
@@ -242,9 +245,6 @@
     margin-left: 30px;
   }
   
-  .main-section-one, .main-section-two, .main-section-three {
-    margin-bottom: 200px
-  }
   .main-section-two {
     border: 1px solid;
   }
@@ -305,4 +305,81 @@
 }
 .operazione h3 {
   margin-bottom: 20px;
+}
+/* SEZIONE PARTNER*/
+.main-section-six {
+  
+  height: calc(30vw);
+}
+.main-section-six > div {
+  
+  min-height: 200px;
+  border: 1px solid;
+}
+.main-section-six> div .square {
+  float: left;
+  width: 50%;
+  height: calc(30vw / 2);
+  border: 1px solid;
+}
+.six-a, .six-c {
+  width: 30%;
+}
+.six-b {
+  width: 40%;
+  height: 100%;
+  overflow: auto;
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+.square {
+  position: relative;
+  
+
+}
+.square img {
+  width: 100px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  filter: invert(100%);
+}
+
+.green {
+  background-color: #a2d39b;
+}
+.purple { 
+  background-color: #61082b;
+}
+.blue {
+  background-color: #0093ce;
+}
+.red {
+  background-color: #ff1c1c;
+}
+.redtwo {
+  background-color: #d5001f;
+}
+.bluetwo {
+  background-color:#b4d0e7;
+}
+.bluethree {
+  background-color: #0d2481;
+}
+.yellow { 
+  background-color: #ffd830 ;
+
+}
+.six-b-one img {
+  width: 200px;
+}
+.six-b-one {
+  margin-bottom: 50px;
+}
+.six-b hr {
+  width: 50px;
+  margin-left: 0;
+  margin-bottom: 50px;
 }
